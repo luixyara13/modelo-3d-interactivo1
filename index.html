@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modelo 3D Interactivo</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        model-viewer { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+    <model-viewer 
+        src="Caba_Comp.gib" 
+        alt="Modelo 3D Campo Vectorial"
+        auto-rotate 
+        camera-controls
+        ar
+        shadow-intensity="1"
+        environment-image="neutral">
+    </model-viewer>
+</body>
+</html>
